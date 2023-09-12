@@ -14,11 +14,12 @@ h2 {
 	color: white;
 }
 .container {
-	max-width: 720px;
+	max-width: 360px;
+	width: 360px;
 	margin: 0 auto;
 }
 .photo {
-	max-width: 720px;
-	width: 720px;
+	max-width: 360px;
+	width: 360px;
 	border-radius: 45px;
 }
