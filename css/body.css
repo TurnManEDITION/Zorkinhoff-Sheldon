@@ -2,6 +2,26 @@
 	font-family: Comic Sans MS;
 	src: url(fonts/comic sans ms.ttf);
 }
+@media screen and (max-width: 1920px) {
+	h1 {
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	h1 {
+		font-size: 37px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	h1 {
+		font-size: 27px;
+	}
+}
+@media screen and (max-width: 720px) {
+	h1 {
+		font-size: 18px;
+	}
+}
 body {
 	font-family: 'comic sans ms', sans-serif;
 	background: black;
