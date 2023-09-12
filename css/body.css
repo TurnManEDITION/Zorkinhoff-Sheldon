@@ -5,7 +5,7 @@
 body {
 	font-family: 'comic sans ms', sans-serif;
 	background: black;
-	min-width: 1900px;
+	max-width: 1900px;
 }
 h1 {
 	color: white;
