@@ -20,4 +20,5 @@ h2 {
 .photo {
 	max-width: 720px;
 	width: 720px;
+	border-radius: 45px;
 }
