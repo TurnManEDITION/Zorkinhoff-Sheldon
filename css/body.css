@@ -14,13 +14,10 @@ h2 {
 	color: white;
 }
 .container {
-	max-width: 700px;
+	max-width: 720px;
 	margin: 0 auto;
 }
-#test {
-	width: 1180px;
-	height: 293px;
-	border: white 1px solid;
-	text-align: center;
-	top: 30px;
+.photo {
+	width: 700px;
+	margin: 10px;
 }
