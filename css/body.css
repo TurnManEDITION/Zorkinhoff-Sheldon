@@ -2,7 +2,7 @@
 	font-family: Comic Sans MS;
 	src: url(fonts/comic sans ms.ttf);
 }
-@media screen and (max-width: 1080px) {
+@media (max-width: 1080px) {
 	body {
 		font-family: 'comic sans ms', sans-serif;
 		background: black;
@@ -26,7 +26,7 @@
 		padding: 0px;
 	}
 }
-@media screen and (min-width: 1080px) {
+@media (min-width: 1080px) {
 	body {
 		font-family: 'comic sans ms', sans-serif;
 		background: black;
