@@ -2,26 +2,51 @@
 	font-family: Comic Sans MS;
 	src: url(fonts/comic sans ms.ttf);
 }
-body {
-	font-family: 'comic sans ms', sans-serif;
-	background: black;
+@media screen and (max-width: 1080px) {
+	body {
+		font-family: 'comic sans ms', sans-serif;
+		background: black;
+	}
+	h1 {
+		color: white;
+		text-align: center;
+	}
+	h2 {
+		color: white;
+	}
+	.container {
+		max-width: 360px;
+		width: 360px;
+		margin: 0 auto;
+	}
+	.photo {
+		max-width: 345px;
+		width: 345px;
+		border-radius: 45px;
+		padding: 0px;
+	}
 }
-h1 {
-	color: white;
-	text-align: center;
-}
-h2 {
-	color: white;
-}
-.container {
-	max-width: 350px;
-	width: 350px;
-	margin: 0 auto;
-}
-.photo {
-	max-width: 345px;
-	width: 345px;
-
-	border-radius: 45px;
-	padding: 0px;
+@media screen and (min-width: 1080px) {
+	body {
+		font-family: 'comic sans ms', sans-serif;
+		background: black;
+	}
+	h1 {
+		color: white;
+		text-align: center;
+	}
+	h2 {
+		color: white;
+	}
+	.container {
+		max-width: 720px;
+		width: 720px;
+		margin: 0 auto;
+	}
+	.photo {
+		max-width: 340px;
+		width: 340px;
+		border-radius: 45px;
+		padding: 0px;
+	}
 }
